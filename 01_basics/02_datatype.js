@@ -21,3 +21,22 @@ console.log(3+3);
 
  console.log(typeof undefined); // undefined
  console.log(typeof null); //object
+
+ //stack (premitive) heap (non-primitive)
+
+ let myyoutubename ="rohitkumar@123"
+ let anothername = myyoutubename
+  anothername ="kushwaha"
+
+ console.log(anothername)
+ console.log(myyoutubename)
+
+ let user ={
+    email:"user@google.com",
+    upi:"user@ybl"
+ }
+
+ let user2 =user
+ user2.email ="kumar@122334"
+ console.log(user.email)
+ console.log(user2.email)
