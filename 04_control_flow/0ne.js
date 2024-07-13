@@ -19,3 +19,14 @@ if (score>100) {
 
 const balance = 1000
 if(balance>500)console.log("test");
+
+const UserLoggedIn = true
+const debitcard = true
+const LoggedInFromGoogle = false
+const LoggedFromEmail = true
+if (UserLoggedIn && debitcard ) {
+    console.log("Allow to buy course")
+}
+if (LoggedFromEmail || LoggedInFromGoogle) {
+    console.log("Allow to buy course")
+}
