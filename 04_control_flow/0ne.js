@@ -20,6 +20,15 @@ if (score>100) {
 const balance = 1000
 if(balance>500)console.log("test");
 
+if (balance<500) {
+    console.log("Less than 500");
+}
+else if (balance<900) {
+    console.log("less than 750")
+} else {
+    console.log("less than 1200")
+}
+
 const UserLoggedIn = true
 const debitcard = true
 const LoggedInFromGoogle = false
@@ -30,3 +39,20 @@ if (UserLoggedIn && debitcard ) {
 if (LoggedFromEmail || LoggedInFromGoogle) {
     console.log("Allow to buy course")
 }
+
+const month = 3
+switch (month) {
+    case 1:
+        console.log("january")
+        break;
+    case 2:
+            console.log("fab")
+            break;    
+    case 3:
+        console.log("april")  
+         break;
+    default:
+        console.log("default case match")
+        break;
+}
+
