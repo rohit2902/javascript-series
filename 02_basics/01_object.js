@@ -53,8 +53,29 @@ const regularuser ={
  const obj3 = {...obj1,...obj2}
  //console.log(obj3)
 
- console.log(tinderUser)
- console.log(Object.keys(tinderUser))
- console.log(Object.values(tinderUser))
- console.log(Object.entries(tinderUser))
- console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+//  console.log(tinderUser)
+//  console.log(Object.keys(tinderUser))
+//  console.log(Object.values(tinderUser))
+//  console.log(Object.entries(tinderUser))
+//  console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+ const course={
+    coursename : "js in hindi",
+    Price:"999",
+    courseInstructor:"Rohit"
+  
+ }
+
+ //course.courseInstructor
+ const {courseInstructor}=course
+ console.log(courseInstructor)
+
+//  const navbar=({company})=>{
+
+//  }
+//  navbar(company = "kumar") 
+
+// {
+//     name: "rohit",
+//     "coursename":"js in hindi",
+// }
